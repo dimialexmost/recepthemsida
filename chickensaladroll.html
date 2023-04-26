@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- https://www.closetcooking.com/bacon-and-cheddar-avocado-chicken-salad-roll-ups/ -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My recipes diary</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <H1>My recipes</H1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Mom's recipes</a></li>
+                <li><a href="#">Dad's recipes</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <div class="flexbox1">
+        <article>
+            <h2>Bacon and Cheddar Avocado Chicken Salad Roll-Ups</h2>
+            <p>Avocado chicken salad with cheddar cheese and bacon, rolled up in tortillas and
+                sliced into snack sized treats.
+
+            <ul id="time-todo">
+                <li>Prep Time: 15 minutes</li>
+                <li>Total Time: 15 minutes</li>
+                <li>Servings: 16 minutes</li>
+            </ul>
+            <div class="image-gallery">
+                <img class="featured-image" src="saladroll.jpg">
+                <img class="featured-image2" src="saladcollage.jpg">
+            </div>
+            Facts:
+            <ul id="facts">
+                <li>Calories 93</li>
+                <li>Fat 6g (Saturated 2g, Trans 0)</li>
+                <li>Cholesterol 24mg</li>
+                <li>Sodium 59mg</li>
+                <li>Carbs 2g (Fiber 0.4g, Sugars 0)</li>
+                <li>Protein 6g</li>
+            </ul>
+            <form>
+                <label for="portions">
+                    <h3>Ammount of portions:</h3>
+                </label>
+                <input type="number" id="portions" name="portions" min="1" value="1">
+            </form>
+            <ul id="ingredients-list">
+                <li><span id="ingredient1">3</span> cups avocado chicken salad</li>
+                <li><span id="ingredient2">1/2</span> cup cheddar cheese, shredded</li>
+                <li><span id="ingredient3">4</span> slices bacon, cooked and crumbled</li>
+                <li><span id="ingredient4">4</span> (10 inch) tortillas (gluten-free for gluten-free)</li>
+                <li>Tequila</li>
+            </ul>
+            <h3>directions:</h3>
+            <ol>
+                <li>Buy chicken salad.</li>
+                <li>Fry the bacon.</li>
+                <li>Spread the mixture over the tortillas, roll them up.</li>
+                <li>Slice into 1/2 to 1 inch slices.</li>
+                <li>Take tequila from the fridge.</li>
+            </ol>
+            </p>
+        </article>
+        <div id="comments-block">
+            <h2>Comments:</h2>
+            <form>
+                <label for="name">Add name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="comment">Leave a comment:</label><br>
+                <textarea id="comment" name="comment"></textarea><br>
+                <button type="button" id="add-comment">Add a comment</button>
+            </form>
+            <div id="comments-list"></div>
+            <br>
+        </div>
+
+    </div>
+
+
+    <script src="recipe.js"></script>
+    <footer>
+        <h4>Social media</h4>
+        <div class="media">
+            <img class="twitter" src="logo-twitter.svg">
+            <img class="facebook" src="logo-facebook.svg">
+            <img class="linkedin" src="logo-linkedin.svg">
+            <img class="instagram" src="logo-instagram.svg">
+        </div>
+    </footer>
+</body>
+
+</html>
